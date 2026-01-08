@@ -3,7 +3,8 @@
     "noEmit": true,
     "strict": true,
     "jsx": "react-jsx",
-    "moduleResolution": "node",
+    "module": "node16",
+    "moduleResolution": "node16",
     "esModuleInterop": true,
     "allowJs": true,
     "skipLibCheck": true
@@ -19,5 +20,6 @@
     "node_modules",
     "android",
     "ios"
-  ]
+  ],
+  "extends": "expo/tsconfig.base"
 }
