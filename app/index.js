@@ -3,6 +3,7 @@ import { ScrollView, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Nearbyjobs, Popularjobs, ScreenHeaderBtn, Welcome } from '../components';
 import { COLORS, icons, images, SIZES } from '../constants';
+
 const Home = () => {
     const router = useRouter();
 
